@@ -1,0 +1,661 @@
+<html>
+
+<img src="logo-universidades.png" width="180"
+alt="Logo Universidades de México"
+style="
+width:120px;
+height:120px;
+display:block;
+margin:auto;
+margin-bottom:15px;
+border-radius:50%;
+padding:5px;
+">
+
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"><title>Universidades Premium México</title>
+
+<style>
+
+
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+}
+
+body{
+    font-family:Arial, sans-serif;
+ background:linear-gradient(purple);
+    color:white;
+}
+
+/* HEADER */
+
+header{
+    background:purple;
+    backdrop-filter:blur(10px);
+    padding:25px;
+    text-align:center;
+    border-bottom:2px solid #a855f7;
+    position:sticky;
+    top:0;
+    z-index:1000;
+}
+
+header h1{
+    font-size:45px;
+    color:black;
+}
+
+header p{
+    margin-top:10px;
+    color:black;
+}
+
+/* MENU */
+
+nav{
+    margin-top:20px;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:10px;
+    padding:12px 22px;
+    background:#7c3aed;
+    border-radius:30px;
+    transition:0.3s;
+    display:inline-block;
+}
+
+nav a:hover{
+    background:#a855f7;
+    transform:scale(1.08);
+}
+
+/* CONTENEDOR */
+
+.container{
+    width:92%;
+    margin:auto;
+    padding:30px 0;
+}
+
+/* GRID */
+
+.grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(320px,1fr));
+    gap:30px;
+}
+
+/* TARJETAS */
+
+.universidad{
+    background:rgba(255,255,255,0.12);
+    border:1px solid rgba(255,255,255,0.25);
+    backdrop-filter:blur(12px);
+    border-radius:25px;
+    padding:25px;
+    transition:0.4s;
+    box-shadow:0px 10px 25px rgba(0,0,0,0.45);
+}
+
+.universidad:hover{
+    transform:translateY(-10px) scale(1.02);
+    box-shadow:0px 0px 30px rgba(168,85,247,0.8);
+}
+
+/* LOGOS */
+
+.logo{
+    width:120px;
+    height:120px;
+    object-fit:contain;
+    background:white;
+    border-radius:20px;
+    padding:10px;
+    display:block;
+    margin:auto;
+    margin-bottom:20px;
+}
+
+/* IMAGENES */
+
+.campus{
+    width:100%;
+    height:250px;
+    object-fit:cover;
+    border-radius:20px;
+    margin-bottom:20px;
+}
+
+/* TITULOS */
+
+h2{
+    color:#f3e8ff;
+    margin-bottom:15px;
+}
+
+p{
+    margin-bottom:10px;
+    line-height:1.6;
+}
+
+/* MAPAS */
+
+iframe{
+    width:100%;
+    height:250px;
+    border:none;
+    border-radius:20px;
+    margin-top:15px;
+}
+
+/* FORMULARIOS */
+
+form{
+    background:rgba(255,255,255,0.12);
+    border:1px solid rgba(255,255,255,0.25);
+    backdrop-filter:blur(10px);
+    padding:30px;
+    border-radius:25px;
+    margin-top:40px;
+}
+
+input,select{
+    width:100%;
+    padding:14px;
+    margin-top:12px;
+    margin-bottom:20px;
+    border:none;
+    border-radius:12px;
+    background:#ede9fe;
+}
+
+button{
+    background:#7c3aed;
+    color:white;
+    border:none;
+    padding:14px 25px;
+    border-radius:12px;
+    cursor:pointer;
+    font-size:16px;
+    transition:0.3s;
+}
+
+button:hover{
+    background:#a855f7;
+    transform:scale(1.05);
+}
+
+/* RESULTADOS */
+
+#resultado{
+    margin-top:20px;
+    background:#2e1065;
+    padding:20px;
+    border-radius:15px;
+}
+
+/* FOOTER */
+
+footer{
+    background:#140424;
+    text-align:center;
+    padding:25px;
+    margin-top:40px;
+    color:#ddd6fe;
+}
+
+</style>
+</head>
+
+<body>
+
+<header>
+
+<h1>Universidades Premium México</h1>
+
+<p>Las 12 mejores universidades de México</p>
+
+<nav>
+<a href="#universidades">Universidades</a>
+<a href="#registro">Registro</a>
+<a href="#consulta">Consultas</a>
+</nav>
+
+</header>
+
+<div class="container">
+
+<div class="grid" id="universidades">
+
+<!-- 1 -->
+
+<section class="universidad">
+
+<h2>1. UNAM</h2>
+
+<img class="logo"
+src="https://cdn-icons-png.flaticon.com/512/8074/8074809.png">
+
+<img class="campus"
+src="https://images.unsplash.com/photo-1498243691581-b145c3f54a5a?q=80&w=1200&auto=format&fit=crop">
+
+<p><strong>Categoría:</strong> Pública</p>
+<p><strong>Programas:</strong> Medicina, Ingeniería, Derecho y Arquitectura</p>
+<p><strong>Ubicación:</strong> Ciudad Universitaria, CDMX</p>
+
+<iframe src="https://maps.google.com/maps?q=Ciudad%20Universitaria%20UNAM&t=&z=15&ie=UTF8&iwloc=&output=embed"></iframe>
+
+</section>
+
+<!-- 2 -->
+
+<section class="universidad">
+
+<h2>2. Tecnológico de Monterrey</h2>
+
+<img class="logo"
+src="https://cdn-icons-png.flaticon.com/512/3135/3135789.png">
+
+<img class="campus"
+src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?q=80&w=1200&auto=format&fit=crop">
+
+<p><strong>Categoría:</strong> Privada</p>
+<p><strong>Programas:</strong> Ingeniería, Negocios y Tecnología</p>
+<p><strong>Ubicación:</strong> Monterrey, Nuevo León</p>
+
+<iframe src="https://maps.google.com/maps?q=Tecnologico%20de%20Monterrey&t=&z=15&ie=UTF8&iwloc=&output=embed"></iframe>
+
+</section>
+
+<!-- 3 -->
+
+<section class="universidad">
+
+<h2>3. IPN</h2>
+
+<img class="logo"
+src="https://cdn-icons-png.flaticon.com/512/3135/3135755.png">
+
+<img class="campus"
+src="https://images.unsplash.com/photo-1562774053-701939374585?q=80&w=1200&auto=format&fit=crop">
+
+<p><strong>Categoría:</strong> Pública</p>
+<p><strong>Programas:</strong> Ingeniería, Ciencias y Computación</p>
+<p><strong>Ubicación:</strong> Zacatenco, CDMX</p>
+
+<iframe src="https://maps.google.com/maps?q=IPN%20Zacatenco&t=&z=15&ie=UTF8&iwloc=&output=embed"></iframe>
+
+</section>
+
+<!-- 4 -->
+
+<section class="universidad">
+
+<h2>4. UAM</h2>
+
+<img class="logo"
+src="https://cdn-icons-png.flaticon.com/512/3135/3135768.png">
+
+<img class="campus"
+src="https://images.unsplash.com/photo-1517486808906-6ca8b3f04846?q=80&w=1200&auto=format&fit=crop">
+
+<p><strong>Categoría:</strong> Pública</p>
+<p><strong>Programas:</strong> Diseño, Arquitectura y Administración</p>
+<p><strong>Ubicación:</strong> Azcapotzalco, CDMX</p>
+
+<iframe src="https://maps.google.com/maps?q=UAM%20Azcapotzalco&t=&z=15&ie=UTF8&iwloc=&output=embed"></iframe>
+
+</section>
+
+<!-- 5 -->
+
+<section class="universidad">
+
+<h2>5. Universidad Iberoamericana</h2>
+
+<img class="logo"
+src="https://cdn-icons-png.flaticon.com/512/3135/3135810.png">
+
+<img class="campus"
+src="https://images.unsplash.com/photo-1523050854058-8df90110c9f1?q=80&w=1200&auto=format&fit=crop">
+
+<p><strong>Categoría:</strong> Privada</p>
+<p><strong>Programas:</strong> Comunicación, Derecho y Diseño</p>
+<p><strong>Ubicación:</strong> Santa Fe, CDMX</p>
+
+<iframe src="https://maps.google.com/maps?q=Universidad%20Iberoamericana%20Santa%20Fe&t=&z=15&ie=UTF8&iwloc=&output=embed"></iframe>
+
+</section>
+
+<!-- 6 -->
+
+<section class="universidad">
+
+<h2>6. Universidad de Guadalajara</h2>
+
+<img class="logo"
+src="https://cdn-icons-png.flaticon.com/512/3135/3135793.png">
+
+<img class="campus"
+src="https://images.unsplash.com/photo-1541339907198-e08756dedf3f?q=80&w=1200&auto=format&fit=crop">
+
+<p><strong>Categoría:</strong> Pública</p>
+<p><strong>Programas:</strong> Medicina, Ingeniería y Psicología</p>
+<p><strong>Ubicación:</strong> Guadalajara, Jalisco</p>
+
+<iframe src="https://maps.google.com/maps?q=Universidad%20de%20Guadalajara&t=&z=15&ie=UTF8&iwloc=&output=embed"></iframe>
+
+</section>
+
+<!-- 7 -->
+
+<section class="universidad">
+
+<h2>7. Universidad Anáhuac</h2>
+
+<img class="logo"
+src="https://cdn-icons-png.flaticon.com/512/3135/3135800.png">
+
+<img class="campus"
+src="https://images.unsplash.com/photo-1516321318423-f06f85e504b3?q=80&w=1200&auto=format&fit=crop">
+
+<p><strong>Categoría:</strong> Privada</p>
+<p><strong>Programas:</strong> Negocios, Medicina y Turismo</p>
+<p><strong>Ubicación:</strong> Huixquilucan, Edo. Méx.</p>
+
+<iframe src="https://maps.google.com/maps?q=Universidad%20Anahuac%20Mexico&t=&z=15&ie=UTF8&iwloc=&output=embed"></iframe>
+
+</section>
+
+<!-- 8 -->
+
+<section class="universidad">
+
+<h2>8. BUAP</h2>
+
+<img class="logo"
+src="https://cdn-icons-png.flaticon.com/512/3135/3135823.png">
+
+<img class="campus"
+src="https://images.unsplash.com/photo-1519452575417-564c1401ecc0?q=80&w=1200&auto=format&fit=crop">
+
+<p><strong>Categoría:</strong> Pública</p>
+<p><strong>Programas:</strong> Ingeniería, Medicina y Derecho</p>
+<p><strong>Ubicación:</strong> Puebla</p>
+
+<iframe src="https://maps.google.com/maps?q=BUAP&t=&z=15&ie=UTF8&iwloc=&output=embed"></iframe>
+
+</section>
+
+<!-- 9 -->
+
+<section class="universidad">
+
+<h2>9. UDLAP</h2>
+
+<img class="logo"
+src="https://cdn-icons-png.flaticon.com/512/3135/3135830.png">
+
+<img class="campus"
+src="https://images.unsplash.com/photo-1564981797816-1043664bf78d?q=80&w=1200&auto=format&fit=crop">
+
+<p><strong>Categoría:</strong> Privada</p>
+<p><strong>Programas:</strong> Negocios, Arquitectura y Comunicación</p>
+<p><strong>Ubicación:</strong> Cholula, Puebla</p>
+
+<iframe src="https://maps.google.com/maps?q=UDLAP&t=&z=15&ie=UTF8&iwloc=&output=embed"></iframe>
+
+</section>
+
+<!-- 10 -->
+
+<section class="universidad">
+
+<h2>10. Universidad Panamericana</h2>
+
+<img class="logo"
+src="https://cdn-icons-png.flaticon.com/512/3135/3135840.png">
+
+<img class="campus"
+src="https://images.unsplash.com/photo-1541829070764-84a7d30dd3f3?q=80&w=1200&auto=format&fit=crop">
+
+<p><strong>Categoría:</strong> Privada</p>
+<p><strong>Programas:</strong> Derecho, Ingeniería y Administración</p>
+<p><strong>Ubicación:</strong> CDMX</p>
+
+<iframe src="https://maps.google.com/maps?q=Universidad%20Panamericana&t=&z=15&ie=UTF8&iwloc=&output=embed"></iframe>
+
+</section>
+
+<!-- 11 -->
+
+<section class="universidad">
+
+<h2>11. UANL</h2>
+
+<img class="logo"
+src="https://cdn-icons-png.flaticon.com/512/3135/3135850.png">
+
+<img class="campus"
+src="https://images.unsplash.com/photo-1523580494863-6f3031224c94?q=80&w=1200&auto=format&fit=crop">
+
+<p><strong>Categoría:</strong> Pública</p>
+<p><strong>Programas:</strong> Medicina, Ingeniería y Odontología</p>
+<p><strong>Ubicación:</strong> Nuevo León</p>
+
+<iframe src="https://maps.google.com/maps?q=UANL&t=&z=15&ie=UTF8&iwloc=&output=embed"></iframe>
+
+</section>
+
+<!-- 12 -->
+
+<section class="universidad">
+
+<h2>12. GTU Atizapán</h2>
+
+<img class="logo"
+src="https://cdn-icons-png.flaticon.com/512/3135/3135755.png">
+
+<img class="campus"
+src="https://images.unsplash.com/photo-1509062522246-3755977927d7?q=80&w=1200&auto=format&fit=crop">
+
+<p><strong>Categoría:</strong> Privada</p>
+<p><strong>Programas:</strong> Tecnologías, Diseño y Administración</p>
+<p><strong>Ubicación:</strong> Atizapán, Estado de México</p>
+
+<iframe src="https://maps.google.com/maps?q=Atizapan%20Estado%20de%20Mexico&t=&z=15&ie=UTF8&iwloc=&output=embed"></iframe>
+
+</section>
+
+</div>
+
+<!-- FORMULARIO -->
+
+<form id="registro">
+
+<h2>Formulario de Registro</h2>
+
+<input type="text" id="nombre"
+placeholder="Nombre completo" required>
+
+<input type="number"
+placeholder="Edad" required>
+
+<input type="text"
+placeholder="Carrera de interés 1">
+
+<input type="text"
+placeholder="Carrera de interés 2">
+
+<input type="text"
+placeholder="Carrera de interés 3">
+
+<button type="submit">
+Registrarse
+</button>
+
+</form>
+
+<!-- CONSULTAS -->
+
+<form id="consulta">
+
+<h2>Consultas Universitarias</h2>
+
+<input type="text"
+placeholder="Buscar universidad o carrera">
+
+<select id="tipoConsulta">
+
+<option>Programas Académicos</option>
+<option>Costos Aproximados</option>
+<option>Requisitos de Admisión</option>
+<option>Becas</option>
+<option>Duración de Carreras</option>
+
+</select>
+
+<button type="submit">
+Consultar
+</button>
+
+<div id="resultado">
+
+<h3>Resultado</h3>
+
+<p>
+Aquí aparecerá la información solicitada.
+</p>
+
+</div>
+
+</form>
+
+</div>
+
+<footer>
+
+<p>
+© 2026 Universidades Premium México
+</p>
+
+</footer>
+
+<script>
+
+/* REGISTRO */
+
+document.getElementById("registro")
+.addEventListener("submit", function(e){
+
+e.preventDefault();
+
+let nombre =
+document.getElementById("nombre").value;
+
+alert(
+"Registro exitoso. Bienvenido " + nombre
+);
+
+});
+
+/* CONSULTAS */
+
+document.getElementById("consulta")
+.addEventListener("submit", function(e){
+
+e.preventDefault();
+
+let tipo =
+document.getElementById("tipoConsulta").value;
+
+let resultado =
+document.getElementById("resultado");
+
+let info = "";
+
+if(tipo == "Programas Académicos"){
+
+info = `
+<h3>Programas Académicos</h3>
+<ul>
+<li>Ingeniería en Sistemas</li>
+<li>Medicina</li>
+<li>Derecho</li>
+<li>Arquitectura</li>
+<li>Administración</li>
+</ul>
+`;
+
+}
+
+else if(tipo == "Costos Aproximados"){
+
+info = `
+<h3>Costos Aproximados</h3>
+<p>Universidades públicas:
+$0 a $5,000 MXN por semestre.</p>
+
+<p>Universidades privadas:
+$40,000 a $150,000 MXN por semestre.</p>
+`;
+
+}
+
+else if(tipo == "Requisitos de Admisión"){
+
+info = `
+<h3>Requisitos</h3>
+<ul>
+<li>CURP</li>
+<li>Certificado de bachillerato</li>
+<li>Examen de admisión</li>
+<li>Pago de inscripción</li>
+</ul>
+`;
+
+}
+
+else if(tipo == "Becas"){
+
+info = `
+<h3>Becas</h3>
+<ul>
+<li>Beca académica</li>
+<li>Beca deportiva</li>
+<li>Beca cultural</li>
+<li>Beca socioeconómica</li>
+</ul>
+`;
+
+}
+
+else if(tipo == "Duración de Carreras"){
+
+info = `
+<h3>Duración de carreras</h3>
+<p>Licenciaturas:
+4 a 5 años.</p>
+
+<p>Ingenierías:
+5 años.</p>
+`;
+
+}
+
+resultado.innerHTML = info;
+
+});
+
+</script>
+
+</body>
+</html>
